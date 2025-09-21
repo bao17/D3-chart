@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Biểu đồ D3 – Câu 1, Câu 2 & Câu 3</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fff;
+      margin: 30px;
+    }
+    h2 {
+      text-align: center;
+      color: teal;
+      margin-top: 40px;
+    }
+    .tooltip {
+      position: absolute;
+      background: white;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      padding: 8px 12px;
+      box-shadow: 0px 2px 6px rgba(0,0,0,0.2);
+      font-size: 13px;
+      line-height: 1.4em;
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity 0.2s;
+    }
+  </style>
+</head>
+<body>
+  <!-- Biểu đồ Câu 1 -->
+  <h2>Doanh số bán hàng theo Mặt hàng</h2>
+  <div id="chart1"></div>
+
+  <!-- Biểu đồ Câu 2 -->
+  <h2>Doanh số bán hàng theo Nhóm hàng</h2>
+  <svg id="chart2" width="1000" height="600"></svg>
+
+  <!-- Biểu đồ Câu 3 -->
+  <h2>Doanh số bán hàng theo Tháng</h2>
+  <svg id="chart3" width="1000" height="600"></svg>
+
+    <!-- Biểu đồ Câu 4 -->
+  <h2>Doanh số bán hàng trung bình theo ngày trong Tuần </h2>
+  <svg id="chart4" width="1000" height="600"></svg>
+
+   <!-- Biểu đồ Câu 5 -->
+  <h2>Doanh số bán hàng trung bình theo ngày trong Tháng </h2>
+  <svg id="chart5" width="1000" height="600"></svg>
+
+   <!-- Biểu đồ Câu 6 -->
+  <h2>Doanh số bán hàng trung bình theo khung giờ </h2>
+  <svg id="chart6" width="1000" height="600"></svg>
+
+     <!-- Biểu đồ Câu 7 -->
+  <h2>Xác suất bán hàng theo nhóm hàng </h2>
+  <svg id="chart7" width="1000" height="600"></svg>
+
+    <!-- Biểu đồ Câu 8 -->
+  <h2>Xác suất bán hàng của Nhóm hàng theo tháng </h2>
+  <svg id="chart8" width="1000" height="600"></svg>
+
+    <!-- Biểu đồ Câu 9 -->
+  <h2>Xác suất bán hàng của mặt hàng theo nhóm hàng </h2>
+  <svg id="chart9" width="1000" height="600"></svg>
+  
+   <!-- Biểu đồ Câu 10 -->
+  <h2>Xác suất bán hàng của mặt hàng theo nhóm hàng theo  từng tháng </h2>
+  <svg id="chart10" width="1000" height="600"></svg>
+
+   <!-- Biểu đồ Câu 11 -->
+  <h2>Phân phối lượt mua hàng </h2>
+  <svg id="chart11" width="1000" height="600"></svg>
+
+   <!-- Biểu đồ Câu 12 -->
+  <h2>Phân phối mức chi trả của khách hàng </h2>
+  <svg id="chart12" width="1000" height="600"></svg>
+  <!-- Gọi script riêng cho từng biểu đồ -->
+  <script src="js/chart1.js"></script>
+  <script src="js/chart2.js"></script>
+  <script src="js/chart3.js"></script>
+  <script src="js/chart4.js"></script>
+  <script src="js/chart5.js"></script>
+  <script src="js/chart6.js"></script>
+  <script src="js/chart7.js"></script>
+  <script src="js/chart8.js"></script>
+  <script src="js/chart9.js"></script>
+  <script src="js/chart10.js"></script>
+  <script src="js/chart11.js"></script>
+  <script src="js/chart12.js"></script>
+</body>
+</html>

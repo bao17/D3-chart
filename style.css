@@ -1,0 +1,16 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: teal;
+}
+
+.bar rect {
+  rx: 5; /* bo góc */
+}
+
+.axis text {
+  font-size: 12px;
+}
